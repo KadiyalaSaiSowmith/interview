@@ -35,6 +35,15 @@ public class method1 {
         }
         System.out.println(ans);
 
-        //for(int i=0)
+        for(int i=0;i<ans.size();i++)
+        {
+            String check_for_A = ans.get(i);
+            if(check_for_A.charAt(0)=='A')
+            {
+                ans.remove(i);
+            }
+        }
+        System.out.println(ans);
+
     }
 }
