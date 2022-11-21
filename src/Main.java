@@ -5,7 +5,7 @@ import java.util.*;
 public class Main {
     public static void main(String args[])
     {
-        method1 obj1 = new method1();
+        method_Impl obj1 = new method_Impl();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter 5 String elements in str1 ");
         ArrayList<String> str1 = new ArrayList<String>();
